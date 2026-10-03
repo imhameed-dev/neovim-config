@@ -28,3 +28,6 @@ map("t", "<Esc><Esc>", "<C-\\><C-n>", { desc = "Leave terminal mode" })
 
 -- Esc also clears the yellow search highlight
 map("n", "<Esc>", "<cmd>nohlsearch<cr>")
+
+-- Space ? opens the setup guide
+map("n", "<leader>?", "<cmd>edit ~/.config/nvim/README.md<cr>", { desc = "Open guide" })
